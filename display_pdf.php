@@ -21,7 +21,7 @@
         while ($info = mysqli_fetch_array($query)) {
     ?>
 
-            <embed type="application/pdf" src="PDF/<?php echo $info['pdf_file']; ?>" frameBorder="0" width="1600px" height="2100px" />
+            <embed type="application/pdf" src="PDF/<?php echo $info['pdf_file']; ?>" type="application/pdf" width="100%" height="800px"  />
     <?php
         }
     }
